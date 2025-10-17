@@ -1,0 +1,249 @@
+/* 🌐 Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+/* 🔹 Header Section */
+.header {
+  background-color: #70a6df;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* 🔹 Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  height: 100vh;
+  background-image: url(./assets/istockphoto-513320180-612x612.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #28bd3c;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  width: 150px;          /* 👈 constant width */
+  align-self: center;   /* 👈 center the button */
+  
+}
+
+button:hover {
+  background-color: #305de5;
+}
+
+/* 🔹 About Section */
+.about {
+  font-size: 20px;
+  padding: 3rem 1rem;
+  text-align: center;
+  height: 100vh;
+  background-image: url(./assets/admec-react-fundamentals.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #222;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+/* 🔹 Contact Section */
+.contact {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  min-height: 100vh;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Labels */
+.contact label {
+  font-weight: bold;
+  color: #333;
+  width: 100%;
+  max-width: 320px;
+  text-align: left;
+}
+
+/* Input fields */
+.contact input,
+.contact textarea {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button */
+.contact button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background-color: #0056b3;
+}
+
+/* 🔹 Footer Section */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #343a40;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* 🌍 Responsive Media Queries */
+
+/* 🔸 Tablets (768px and below) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header a {
+    margin: 0.5rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+
+  .contact label {
+    margin-left: 0;
+    text-align: left;
+  }
+}
+
+/* 🔸 Mobile (480px and below) */
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+    height: 90vh;
+  }
+
+  .hero h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  button {
+    font-size: 4px;
+    padding: 8px 20px;
+  }
+
+  .about p {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+}
