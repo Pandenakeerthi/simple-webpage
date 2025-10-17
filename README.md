@@ -23,5 +23,5 @@ A beginner-friendly **React.js** project that displays a simple webpage with Hom
 
 ### 1️⃣ Clone or Download
 ```bash
-git clone https://github.com/your-username/simple-webpage.git
+git clone https://github.com/Pandenakeerthi/simple-webpage.git
 cd simple-webpage
