@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-webpage/static/css/main.26e9d8e2.css",
+    "main.js": "/simple-webpage/static/js/main.264062e5.js",
+    "static/media/istockphoto-513320180-612x612.jpg": "/simple-webpage/static/media/istockphoto-513320180-612x612.2a6e3ce1e000331e3ee2.jpg",
+    "static/media/admec-react-fundamentals.webp": "/simple-webpage/static/media/admec-react-fundamentals.7fe05ed05b8e8f6d7c92.webp",
+    "index.html": "/simple-webpage/index.html",
+    "main.26e9d8e2.css.map": "/simple-webpage/static/css/main.26e9d8e2.css.map",
+    "main.264062e5.js.map": "/simple-webpage/static/js/main.264062e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26e9d8e2.css",
+    "static/js/main.264062e5.js"
+  ]
+}
